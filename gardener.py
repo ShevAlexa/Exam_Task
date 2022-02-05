@@ -18,3 +18,7 @@ class Gardener:
 
     def information(self):
         self._plant.status_all()
+
+    @staticmethod
+    def knowledge_base():
+        print("Sow tomato seeds. Cultivate and carefully care for them. Wait for ripeness and collect delicious crops")
